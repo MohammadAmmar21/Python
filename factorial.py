@@ -1,6 +1,10 @@
 ##factorial
+##in:5
+##output:120
+
 n=int(input())
-ans=1
+print(n)
+fact=1
 for i in range(1,n+1):
-    ans=ans*i
-print(ans)
+    fact=fact*i
+    print(fact)
